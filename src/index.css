@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css?family=Russo+One');
+
+html{
+  min-height: 100%;
+}
+body {
+  font-family: 'Russo+One', cursive;
+  margin: 0;
+  padding: 0;
+  background-position: bottom;
+  background-color: #e0e0e0;
+  flex: 1 0 auto;
+  min-height: 100%;
+  overflow:auto;
+  width: 100% ;
+  background-size: 100% 100%;
+}
+#navbar{
+  height: 30%;
+}
+#productCard{
+  height:40vh; 
+  width:49vh;
+}
+#stripe{
+  visibility: hidden;
+}
+#cart{
+  background-color: white;
+}
+#dbutton{
+  margin-top:8%;
+}
+img{
+  height:40%;
+  width:100%;
+}
+#icon{
+  pointer-events:none
+}
+#messages{
+  width:100%
+}
+.cartImage{
+  height:15vh;
+  width:15vh;
+}
+.productimage{
+  height: 55vh;
+  width: 55vh;
+}
+.productimg{
+  height:100%;
+  min-width: 30vh;
+}
+#imageboard{
+  margin-left:7%;
+  margin-right:7%;
+}
+.simage{
+  margin-left:7.5%;
+  margin-right:8%;
+}
+#imag{
+  height:80vh;
+  width:100%;
+  margin-left:0.8vh;
+}
+form{
+  padding: 3%;
+  margin-top:6%;
+}
+form button, form h5{
+  margin: 3% 0;
+}
+input[type=text]:not(.browser-default):focus:not([readonly]),
+input[type=email]:not(.browser-default):focus:not([readonly]),
+input[type=password]:not(.browser-default):focus:not([readonly]),
+textarea.materialize-textarea:focus:not([readonly]){
+  border-color:blueviolet;
+  box-shadow: none;
+}
+.quantities{
+  width: 5vh;
+}
+#details{
+  min-height: 100%;
+}
+
+#dropdown1{
+  margin-top:24.5vh;
+  margin-right:10vh;
+  min-width: 27%;
+  min-height: 100%;
+  height:100vh;
+  color:blueviolet;
+}
+#dropdown4{
+  margin-top:24.5vh;
+  min-width: 20%;
+  min-height: 100%;
+  color:blueviolet;
+}
+h6{
+  color:#5e35b1;
+  text-align:center;
+}
+h2{
+  color:white;
+  text-align:center;
+}
+#logo{
+  height:50%;
+  width:60%;
+  margin-top: 1.5%;
+  font-family: 'Russo One', sans-serif;
+	color: #5e35b1 !important;
+}
+#catdropdown{
+ margin-top:8vh;
+ background-color: #5e35b1;
+ min-width:42vh;
+ height: 10vh;
+ max-width:50vh;
+ max-height:10vh;
+}
+#cartbtn{
+  margin-top:8vh;
+  background-color: #5e35b1;
+  min-width:42vh;
+  height: 10vh;
+  max-width:50vh;
+  max-height:10vh;
+}
+#iconcgr, #iconcr{
+  margin-top:2.5vh;
+}
+#par{
+  margin-top:2.5vh;
+}
+#par1{
+  margin-top:2.5vh;
+}
+.page-footer{
+  padding-bottom: 0px;
+}
+.orderhref{
+  color:#5e35b1
+}
+#worktime{
+  text-align: center;
+}
+@media only screen and (max-width: 800px) {
+  #catdropdown{
+    margin-top:5vh;
+    background-color: #5e35b1;
+    min-width:30vh;
+    height: 10vh;
+    max-width:50vh;
+    max-height:10vh;
+   }
+  .cartImage{
+    height:5.5vh;
+    width:5.5vh;
+  }
+  .tr th{
+    font-size:0.7rem !important;
+  }
+  h6{
+    font-size:0.9rem !important;
+  }
+  p{
+    font-size:0.56rem !important;
+  }
+  #ord p{
+    font-size:0.6rem !important;
+  }
+  #end p{
+    font-size:0.8rem !important;
+  }
+
+  #price,#overal,#tp,#total{
+    font-size:0.7rem !important;
+  }
+  #categcard img{
+    width:100%;
+    height:25%;
+  }
+  #dropdown4 h6{
+    font-size:0.9rem !important;
+    margin-left:-25%;
+  }
+  #prodName{
+    font-size:.6rem !important;
+  }
+  #dashimg{
+    padding-top:1rem;
+  }
+  #par1{
+    font-size:0.6rem !important;
+  }
+  #worktime{
+    text-align: center;
+  }
+  #hotprd{
+    font-size:0.7rem;
+  }
+  #logo{
+    text-align: left;
+    margin-left:-15%;
+    font-size: 1.5rem !important;
+  }
+  #catdropdown{
+    min-width:28vh;
+  }
+  #cartbtn{
+    margin-top:5vh;
+    min-width:2vh;
+    max-width: 12vh; 
+  }
+  #par{
+    display:none;
+  }
+  #iconcr{
+    padding-left:15%;
+  }
+}
+@media only screen and (max-width: 470px) {
+  #catdropdown{
+    margin-top:8vh;
+    background-color: #5e35b1;
+    min-width:30vh;
+    height: 10vh;
+    max-width:50vh;
+    max-height:10vh;
+   }
+  .cartImage{
+    height:5.5vh;
+    width:5.5vh;
+  }
+  .tr th{
+    font-size:0.7rem !important;
+  }
+  h6{
+    font-size:0.9rem !important;
+  }
+  p{
+    font-size:0.56rem !important;
+  }
+  #ord p{
+    font-size:0.6rem !important;
+  }
+  #end p{
+    font-size:0.8rem !important;
+  }
+
+  #price,#overal,#tp,#total{
+    font-size:0.7rem !important;
+  }
+  #categcard img{
+    width:100%;
+    height:25%;
+  }
+  #dropdown4 h6{
+    font-size:0.9rem !important;
+    margin-left:-25%;
+  }
+  #prodName{
+    font-size:.6rem !important;
+  }
+  #dashimg{
+    padding-top:1rem;
+  }
+  #par1{
+    font-size:0.6rem !important;
+  }
+  #worktime{
+    text-align: center;
+  }
+  #hotprd{
+    font-size:0.7rem;
+  }
+  #logo{
+    text-align: left;
+    margin-left:-15%;
+    font-size: 1.5rem !important;
+  }
+  #catdropdown{
+    min-width:28vh;
+   }
+   #cartbtn{
+    min-width:2vh;
+    max-width: 12vh; 
+  }
+  #par{
+    display:none;
+  }
+  #iconcr{
+    padding-left:15%;
+  }
+}
+
+h1 {
+  color: #32325d;
+  font-weight: 400;
+  line-height: 50px;
+  font-size: 40px;
+  margin: 20px 0;
+  padding: 0;
+}
+
+.Checkout {
+  margin: 0 auto;
+  max-width: 800px;
+  box-sizing: border-box;
+  padding: 0 5px;
+}
+
+button {
+  white-space: nowrap;
+  border: 0;
+  outline: 0;
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 14px;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08);
+  color: #fff;
+  border-radius: 4px;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
+  background-color: #5e35b1;
+  text-decoration: none;
+  -webkit-transition: all 150ms ease;
+  transition: all 150ms ease;
+  margin-top: 10px;
+}
+
+form {
+  margin-bottom: 40px;
+  padding-bottom: 40px;
+  border-bottom: 3px solid #e6ebf1;
+}
+
+button:hover {
+  color: #fff;
+  cursor: pointer;
+  background-color: #7795f8;
+  transform: translateY(-1px);
+  box-shadow: 0 7px 14px rgba(50, 50, 93, .10), 0 3px 6px rgba(0, 0, 0, .08);
+}
+
+.StripeElement {
+  display: block;
+  margin: 10px 0 20px 0;
+  max-width: 500px;
+  padding: 10px 14px;
+  box-shadow: rgba(50, 50, 93, 0.14902) 0px 1px 3px, rgba(0, 0, 0, 0.0196078) 0px 1px 0px;
+  border-radius: 4px;
+  background: white;
+}
+
+.StripeElement--focus {
+  box-shadow: rgba(50, 50, 93, 0.109804) 0px 4px 6px, rgba(0, 0, 0, 0.0784314) 0px 1px 3px;
+  -webkit-transition: all 150ms ease;
+  transition: all 150ms ease;
+}
