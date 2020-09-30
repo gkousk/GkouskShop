@@ -1,0 +1,152 @@
+html{
+	height: 100%;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+	flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+    height: 102vh;
+    overflow:auto;
+  
+    background-repeat: no-repeat, repeat;
+    width: 100% ;
+    background-size: 100% 100%;
+}
+
+h4{
+	color: #000000 !important;
+}
+img{
+	height:20vh;
+    width:100%;
+}
+button{
+	background-color: #5e35b1 ; 
+  border: none;
+  color: white;
+  padding: 2vh;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 2vh;
+  margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 5%;
+	
+}
+#logo{
+	font-family: 'Russo One', sans-serif;
+	font-size:2.7em;
+	color: #5e35b1 !important;
+}
+
+#ls{
+	font-family: 'Russo One', sans-serif;
+	font-size:2em;
+	color: #5e35b1 !important;
+	text-align: center;
+}
+
+#log{
+	display: inline-block;
+	padding: 0px 40px 0px 40px; 
+	border: 1px solid #EEE;
+}
+
+
+.categ{
+	font-family: 'Russo One', sans-serif;
+	font-size:1em;
+	color: #512da8 !important;
+	text-align: center;
+}
+#bluelogo{
+	font-family: 'Russo One', sans-serif;
+	font-size:3em;
+	color: #01579b !important;
+}
+
+#dropdown1{
+	min-width: 42.2vh !important;
+	min-height: 89vh !important;
+	background-color: #e0e0e0;
+}
+#dropdown2{
+	min-width: 42.2vh !important;
+	min-height: 89vh !important;
+	background-color: #e0e0e0;
+}
+#dropdown1 a{
+	color:#4527a0;
+}
+
+#dropdown1 .material-icons{
+	color: #0091ea  !important;
+}
+
+.lswh{
+	font-family: 'Russo One', sans-serif;
+	font-size:1em;
+	color: white !important;
+	text-align: center;
+}
+
+.input-field input:focus + label{
+   color: #0091ea  !important;
+}
+
+.row .input-field input:focus {
+   border-bottom: 1px solid #80d8ff  !important;
+   box-shadow: 0 1px 0 0 #80d8ff  !important
+}
+
+i.icon-blue {
+    color: #616161;
+}
+
+.dropdown-content {
+	top: 64px !important;
+
+}
+.dropdown-content a:hover {
+	background-color:grey;
+}
+
+.input-field input:focus + label {
+   color: #5e35b1 !important;
+   max-height: 10vh;
+ }
+ /* label underline focus color */
+ .row .input-field input:focus {
+   border-bottom: 1px solid  #5e35b1 !important;
+   box-shadow: 0 1px 0 0  #5e35b1  !important
+ }
+ table {
+	border-collapse: collapse;
+	width: 100%;
+	border: 0.1vh solid #424242;
+}
+
+td {
+	text-align: center;
+	padding: 8px;
+	background-color:white;
+	color:black;
+	border: 0.1vh solid grey;
+}
+ 
+th {
+	text-align: center;
+	background-color:#424242;
+	color:white;
+}
+
+input[type='number']::-webkit-inner-spin-button, 
+input[type='number']::-webkit-outer-spin-button { 
+    opacity: 1;
+}
