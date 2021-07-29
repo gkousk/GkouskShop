@@ -13,7 +13,7 @@ class Dashboard extends Component {
             <div className="row" id="imageboard">
                     <br/>
                     <div className="col s6 m4 l4" >
-                        <img alt="" className="activator" src="https://stmed.net/sites/default/files/pc-gaming-hd-wallpapers-33488-2165495.jpg"></img>
+                        <img alt="" className="activator" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-96xsmoNlGs2tgymqIZLFmxIrA99Hboeehw&usqp=CAU"></img>
                     </div>
                     <div className="col s6 m4 l4" >
                         <img alt="" className="activator" src="https://images8.alphacoders.com/693/thumb-350-693887.jpg"></img>
